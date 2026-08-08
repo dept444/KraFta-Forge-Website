@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact KraFta Forge — Have a question, an idea, or want to connect? Reach out and be part of our journey in building innovative technology.">
+  <meta name="theme-color" content="#050816">
+  <title>Contact | KraFta Forge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="no-scroll">
+
+  <div class="loader" role="status" aria-label="Loading">
+    <img src="images/logo.png" alt="" class="loader__logo" width="80" height="80">
+    <div class="loader__bar"><div class="loader__bar-fill"></div></div>
+    <span class="loader__text">Initializing</span>
+  </div>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <nav class="nav" aria-label="Main navigation">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="KraFta Forge Home">
+          <img src="images/logo.png" alt="KraFta Forge logo" width="44" height="44">
+          <span class="nav__logo-text">KraFta Forge</span>
+        </a>
+        <ul class="nav__links" role="list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="projects.html" class="nav__link">Projects</a></li>
+          <li><a href="technologies.html" class="nav__link">Technologies</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary btn--sm nav__cta">Join The Journey</a>
+        <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+      </div>
+      <div class="nav__mobile" aria-hidden="true">
+        <a href="index.html" class="nav__mobile-link">Home</a>
+        <a href="about.html" class="nav__mobile-link">About</a>
+        <a href="projects.html" class="nav__mobile-link">Projects</a>
+        <a href="technologies.html" class="nav__mobile-link">Technologies</a>
+        <a href="contact.html" class="nav__mobile-link">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-hero">
+      <div class="page-hero__bg" aria-hidden="true"></div>
+      <div class="container">
+        <span class="section-label reveal">Get in Touch</span>
+        <h1 class="reveal">Let's <span class="text-gradient">Connect</span></h1>
+        <p class="reveal">Whether you have a question, an idea, or simply want to follow the journey of KraFta Forge, I'd love to hear from you. As a solo student developer, I personally read every message and appreciate every conversation.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Contact Information -->
+          <div class="reveal-left">
+            <h2 style="margin-bottom: var(--space-xl);">Contact Information</h2>
+            <p style="margin-bottom: var(--space-2xl);">Feel free to reach out through the contact form below. Whether it's a suggestion, collaboration, feedback, or simply a conversation about technology, every message is appreciated.</p>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon" aria-hidden="true">📧</div>
+              <div>
+                <div class="contact-info__label">Email</div>
+                <div class="contact-info__value"><a href="mailto:kraftaforge@gmail.com">kraftaforge@gmail.com</a></div>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon" aria-hidden="true">📞</div>
+              <div>
+                <div class="contact-info__label">Phone</div>
+                <div class="contact-info__value">Coming Soon</div>
+              </div>
+            </div>
+
+           <div class="contact-info__item">
+  <div class="contact-info__icon" aria-hidden="true">💬</div>
+  <div>
+    <div class="contact-info__label">Response Time</div>
+    <div class="contact-info__value">
+      Usually within 24–48 hours
+    </div>
+  </div>
+</div>
+
+            <div class="contact-info__item">
+  <div class="contact-info__icon" aria-hidden="true">📍</div>
+  <div>
+    <div class="contact-info__label">Location</div>
+    <div class="contact-info__value">
+      Ranchi, Jharkhand, India
+    </div>
+  </div>
+</div>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon" aria-hidden="true">🕐</div>
+              <div>
+                <div class="contact-info__label">Availability</div>
+                <div class="contact-info__value">As a student, I may not reply instantly, but I do my best to respond within 24–48 hours.</div>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+  <div class="contact-info__icon" aria-hidden="true">🚀</div>
+  <div>
+    <div class="contact-info__label">Current Stage</div>
+    <div class="contact-info__value">
+      Solo Student-Led Startup
+    </div>
+  </div>
+</div>
+
+          <!-- Contact Form -->
+          <div class="card reveal-right" style="padding: var(--space-2xl);">
+            <h2 style="margin-bottom: var(--space-xl);">Send Us a Message</h2>
+
+            <div class="form-success" id="form-success" role="alert" style="display: none;">
+              Thank you for reaching out! We've received your message and will respond within 24 hours.
+            </div>
+
+            <div class="form-error" id="form-error" role="alert" style="display: none;">
+              There was an error sending your message. Please try again later.
+            </div>
+
+            <form id="contact-form" action="https://formspree.io/f/xbgrdrrg" method="POST" novalidate>
+              <input type="text" name="_honey" style="display: none;">
+              <input type="hidden" name="_subject" value="New Contact Form Submission from KraFta Forge Website">
+              <input type="hidden" name="_captcha" value="false">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="first-name">First Name *</label>
+                  <input type="text" id="first-name" name="first-name" class="form-input" placeholder="John" required autocomplete="given-name">
+                  <span class="form-error">Please enter your first name.</span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="last-name">Last Name *</label>
+                  <input type="text" id="last-name" name="last-name" class="form-input" placeholder="Doe" required autocomplete="family-name">
+                  <span class="form-error">Please enter your last name.</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">Email Address *</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="john@company.com" required autocomplete="email">
+                <span class="form-error">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="company">Organization (Optional)</label>
+                <input type="text" id="company" name="company" class="form-input"placeholder="School, Company or Organization" autocomplete="organization">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="subject">Subject *</label>
+                <select id="subject" name="subject" class="form-select" required>
+                  <option value="" disabled selected>Select a topic</option>
+                  <option value="project">Project Discussion</option>
+<option value="collaboration">Collaboration</option>
+<option value="feedback">Feedback</option>
+<option value="technology">Technology Discussion</option>
+<option value="other">Other</option>
+                </select>
+                <span class="form-error">Please select a subject.</span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Message *</label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+                <span class="form-error">Please enter your message.</span>
+              </div>
+
+              <button type="submit" class="btn btn--primary" style="width: 100%;">
+                Send Message
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                </svg>
+              </button>
+            </form>
+
+            <script>
+              (function() {
+                const form = document.getElementById('contact-form');
+                const successMessage = document.getElementById('form-success');
+                const errorMessage = document.getElementById('form-error');
+                const submitButton = form.querySelector('button[type="submit"]');
+
+                // Form validation
+                function validateForm() {
+                  let isValid = true;
+                  const requiredFields = form.querySelectorAll('[required]');
+                  
+                  requiredFields.forEach(field => {
+                    const errorSpan = field.nextElementSibling;
+                    const parent = field.closest('.form-group');
+                    
+                    if (!field.value.trim()) {
+                      isValid = false;
+                      field.classList.add('form-input--error');
+                      if (errorSpan && errorSpan.classList.contains('form-error')) {
+                        errorSpan.style.display = 'block';
+                      }
+                    } else {
+                      field.classList.remove('form-input--error');
+                      if (errorSpan && errorSpan.classList.contains('form-error')) {
+                        errorSpan.style.display = 'none';
+                      }
+                    }
+
+                    // Email validation
+                    if (field.type === 'email' && field.value.trim()) {
+                      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                      if (!emailRegex.test(field.value.trim())) {
+                        isValid = false;
+                        field.classList.add('form-input--error');
+                        if (errorSpan && errorSpan.classList.contains('form-error')) {
+                          errorSpan.style.display = 'block';
+                        }
+                      }
+                    }
+                  });
+
+                  return isValid;
+                }
+
+                // Real-time validation
+                form.querySelectorAll('input, select, textarea').forEach(field => {
+                  field.addEventListener('blur', function() {
+                    if (this.hasAttribute('required') || this.type === 'email') {
+                      const errorSpan = this.nextElementSibling;
+                      
+                      if (!this.value.trim() && this.hasAttribute('required')) {
+                        this.classList.add('form-input--error');
+                        if (errorSpan && errorSpan.classList.contains('form-error')) {
+                          errorSpan.style.display = 'block';
+                        }
+                      } else if (this.type === 'email' && this.value.trim()) {
+                        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                        if (!emailRegex.test(this.value.trim())) {
+                          this.classList.add('form-input--error');
+                          if (errorSpan && errorSpan.classList.contains('form-error')) {
+                            errorSpan.style.display = 'block';
+                          }
+                        } else {
+                          this.classList.remove('form-input--error');
+                          if (errorSpan && errorSpan.classList.contains('form-error')) {
+                            errorSpan.style.display = 'none';
+                          }
+                        }
+                      } else {
+                        this.classList.remove('form-input--error');
+                        if (errorSpan && errorSpan.classList.contains('form-error')) {
+                          errorSpan.style.display = 'none';
+                        }
+                      }
+                    }
+                  });
+
+                  field.addEventListener('input', function() {
+                    if (this.classList.contains('form-input--error')) {
+                      this.classList.remove('form-input--error');
+                      const errorSpan = this.nextElementSibling;
+                      if (errorSpan && errorSpan.classList.contains('form-error')) {
+                        errorSpan.style.display = 'none';
+                      }
+                    }
+                  });
+                });
+
+                // Form submission
+                form.addEventListener('submit', async function(e) {
+                  e.preventDefault();
+
+                  // Hide previous messages
+                  successMessage.style.display = 'none';
+                  errorMessage.style.display = 'none';
+
+                  // Validate form
+                  if (!validateForm()) {
+                    return;
+                  }
+
+                  // Check honeypot
+                  const honeyField = form.querySelector('input[name="_honey"]');
+                  if (honeyField && honeyField.value) {
+                    // Bot detected - silently fail
+                    return;
+                  }
+
+                  // Disable submit button
+                  submitButton.disabled = true;
+                  submitButton.innerHTML = 'Sending...';
+
+                  try {
+                    const formData = new FormData(form);
+                    const response = await fetch(form.action, {
+                      method: 'POST',
+                      body: formData,
+                      headers: {
+                        'Accept': 'application/json'
+                      }
+                    });
+
+                    if (response.ok) {
+                      successMessage.style.display = 'block';
+                      form.reset();
+                      // Scroll to success message
+                      successMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    } else {
+                      const data = await response.json();
+                      throw new Error(data.error || 'Form submission failed');
+                    }
+                  } catch (error) {
+                    errorMessage.style.display = 'block';
+                    errorMessage.textContent = 'There was an error sending your message. Please try again later.';
+                    console.error('Form submission error:', error);
+                    // Scroll to error message
+                    errorMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                  } finally {
+                    submitButton.disabled = false;
+                    submitButton.innerHTML = 'Send Message <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>';
+                  }
+                });
+              })();
+            </script>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background: var(--color-bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="grid grid--2">
+          <article class="card reveal reveal-delay-1">
+            <h3 class="card__title">What is KraFta Forge?</h3>
+            <p class="card__text">KraFta Forge is a student-led technology startup focused on artificial intelligence, robotics, software development, and future technologies.</p>
+          </article>
+          <article class="card reveal reveal-delay-2">
+            <h3 class="card__title">Who is building KraFta Forge?</h3>
+            <p class="card__text">KraFta Forge is currently being built independently by a solo student developer passionate about creating technology that helps humanity.</p>
+          </article>
+          <article class="card reveal reveal-delay-1">
+            <h3 class="card__title">Can I collaborate?</h3>
+            <p class="card__text">Absolutely! If you have an idea, project, or simply want to discuss technology, feel free to get in touch.</p>
+          </article>
+          <article class="card reveal reveal-delay-2">
+            <h3 class="card__title">How can I stay updated?</h3>
+            <p class="card__text">Follow the official KraFta Forge website and future social media pages as new projects and updates are released.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <img src="images/logo.png" alt="KraFta Forge logo" width="36" height="36">
+            KraFta Forge
+                  </a>
+
+<p>
+Building innovative software, artificial intelligence, robotics, and future technologies that shape a better tomorrow.
+</p>
+</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="footer__social-link" aria-label="GitHub">GH</a>
+            <a href="#" class="footer__social-link" aria-label="Twitter">X</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Navigation</h4>
+          <ul class="footer__links" role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="technologies.html">Technologies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          
+          <h4 class="footer__heading">Research Areas</h4>
+<ul class="footer__links" role="list">
+    <li><a href="technologies.html">Artificial Intelligence</a></li>
+    <li><a href="technologies.html">Robotics</a></li>
+    <li><a href="technologies.html">Software Development</a></li>
+    <li><a href="technologies.html">Future Energy Technology</a></li>
+</ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+<ul class="footer__links" role="list">
+    <li><a href="mailto:kraftaforge@gmail.com">kraftaforge@gmail.com</a></li>
+    <li>Ranchi, Jharkhand, India</li>
+    <li>Solo Student-Led Startup</li>
+</ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 KraFta Forge. All rights reserved.</p>
+        <p>Engineered with precision. Built for the future.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
